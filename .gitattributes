@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.css           text diff=css
+*.html          text diff=html
+*.ejs           text diff=html
+*.ts            text
+*.tsx           text
+
+# These files are binary and should be left untouched
+*.png           binary
